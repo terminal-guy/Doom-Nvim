@@ -5,10 +5,13 @@
 
 ###
 
+<div align="center">
 <img src="./.screenshots/neovim-mark-flat.png"
-    height=200
-    width=200
-     style="float: left; margin-right: 10px;" />
+     height=200
+     width=200
+     alt="NeoVim icon"
+/>
+</div>
 
 <br> </br>
 
