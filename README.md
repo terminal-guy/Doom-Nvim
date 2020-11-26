@@ -5,7 +5,7 @@
 
 ###
 <div align="center">
-<img height=250 width=200 src="./.screenshots/neovim-mark-flat.png"/> 
+<img src="./.screenshots/neovim-mark-flat.png " height=250 width=200 /> 
 </div>
 <br> </br>
 
