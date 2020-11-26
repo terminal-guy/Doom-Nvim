@@ -2,7 +2,7 @@
   <h1>NeoVim</h1>
 </div>
 
-
-## My personal  Configured NeoVim Configuration :)
+###
+ <img  src=".screenshots/neovim.png"/>
 
 ![xmonad_dracula_edition](.screenshots/My_POST.png)
