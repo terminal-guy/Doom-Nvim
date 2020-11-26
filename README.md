@@ -27,7 +27,7 @@
 <details>
 <summary> ONE DARK </summary>
 
-![One dark](./.screenshots/NVim_One_Dark_Setup.png)
+![One dark](./.screenshots/colorscripts_awesome_vim.png)
 </details>
 
 <details>
