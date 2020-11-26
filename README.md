@@ -22,7 +22,7 @@
 <br>
 
 <details>
-<summary>Themes 🔥🔥🔥 </summary>
+<summary> _Themes_ 🔥🔥🔥 </summary>
 
 <details>
 <summary> ONE DARK </summary>
@@ -39,7 +39,7 @@
 <details>
 <summary> VS CODE DARK+ </summary>
 
-![material](./.screenshots/nvcode.png)
+![nvcode](./.screenshots/nvcode.png)
 </details>
 
 <details>
