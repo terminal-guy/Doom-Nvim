@@ -84,4 +84,4 @@ let g:mkdp_port = ''
 let g:mkdp_page_title = '「${name}」'
 
 
-"autocmd FileType markdown let b:coc_suggest_disable = 1
+autocmd FileType markdown let b:coc_suggest_disable = 1

@@ -7,7 +7,7 @@
 
 <div align="center">
 <img src="./.screenshots/neovim-mark-flat.png"
-     height=200
+     height=250
      width=200
      alt="NeoVim icon"
 />
@@ -17,6 +17,38 @@
 
 ## _**My Configrured**_ NeoVim like VsCode <img height=30  src="./.screenshots/vscode.jpg"/> 
 
-
 ![vim_pics](.screenshots/My_POST.png)
+
+<br>
+
+<details>
+<summary>Themes 🔥🔥🔥 </summary>
+
+<details>
+<summary> ONE DARK </summary>
+
+![One dark](./.screenshots/NVim_One_Dark_Setup.png)
+</details>
+
+<details>
+<summary> NORD </summary>
+
+![Nord](./.screenshots/Nvim_Nord_Setup.png)
+</details>
+
+<details>
+<summary> VS CODE DARK+ </summary>
+
+![material](./.screenshots/nvcode.png)
+</details>
+
+<details>
+<summary> MATERIAL </summary>
+
+
+![material](./.screenshots/nvim_material.png)
+
+</details>
+</details>
+
 
