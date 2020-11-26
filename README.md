@@ -3,9 +3,9 @@
 </div>
 
 ###
-<a href="https://www.deviantart.com/owl4ce/art/Joyful-Desktop-v2-1-858789495"><img height="100px" src=".screenshots/neovim.png" alt="preview" width="300px" style="float: right; margin-right:240px; margin-left:10px; margin-top:-20px;"></a>
+<img height="100px" src=".screenshots/neovim.png" alt="preview" width="300px" style="float: right; margin-right:240px; margin-left:10px; margin-top:-20px;"/>
 
-## _**My Configrured of**_ 
+_**My Configrured of**_ 
 
 
 ![xmonad_dracula_edition](.screenshots/My_POST.png)
