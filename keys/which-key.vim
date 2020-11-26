@@ -37,7 +37,7 @@ let g:which_key_map['v'] = [ '<C-W>v'                     , 'split right']
 let g:which_key_map['z'] = [ 'Goyo'                       , 'zen' ]
 let g:which_key_map['='] = [ '<C-W>='                     , 'balance windows']
 let g:which_key_map['n'] = [ ':let @/ = ""'                                    , 'no highlight' ]
-let g:which_key_map['q'] = [ ':q'                         , 'quit nvim']
+
 " t is for terminal
 let g:which_key_map.t = {
       \ 'name' : 'FloatTerms' ,
@@ -129,6 +129,14 @@ let g:which_key_map.S = {
       \ 'l' : [':SLoad'           , 'Load Session']     ,
       \ 's' : [':Startify'        , 'Start Page']     ,
       \ 'S' : [':SSave'           , 'Save Session']   ,
+      \ }
+
+let g:which_key_map.q = {
+      \ 'name' : 'Session Commands' ,
+      \ 'q' : [':q'          , 'quit']  ,
+      \ 'w' : [':wq'           , 'Save and Quit']     ,
+      \ 's' : [':w'        , 'Save']     ,
+      \ 'i' : [':q!'        , 'NO Save Changes']     ,
       \ }
 
 let g:which_key_map.g = {
