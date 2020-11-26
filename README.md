@@ -57,3 +57,30 @@
 </details>
 </details>
 
+---
+
+## _Install Neovim Nightly_
+
+- **Mac**
+
+  ```
+  brew install --HEAD neovim # Nightly version
+
+  brew upgrade neovim --fetch-HEAD # update to not to get 🚨 :) 
+  ```
+
+- **Ubuntu And Debain Based Distros**
+
+  ```
+  curl -l https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage > /tmp/nvim.appimage
+
+  sudo mv /tmp/nvim.appimage /usr/local/bin/nvim
+
+  chmod +x /usr/local/bin/nvim
+  ```
+
+- **Arch**
+
+  ```
+  yay -S neovim-nightly-git # Git Version to be on 🩸 Edge
+  ```
