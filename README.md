@@ -26,7 +26,7 @@
 <br>
 
 <details>
-<summary> <i><b>Themes</b></i> 🔥🔥🔥 </summary>
+<summary> <font size="5"><i><b>Themes</b></i> </font>🔥🔥🔥 </summary>
 
 <details>
 
@@ -56,5 +56,4 @@
 
 </details>
 </details>
-
 
