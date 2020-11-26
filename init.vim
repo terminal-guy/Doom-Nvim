@@ -17,5 +17,5 @@ source $HOME/.config/nvim/configs/sneak.vim
 source $HOME/.config/nvim/themes/onedark.vim
 "source $HOME/.config/nvim/themes/nord.vim
 "source $HOME/.config/nvim/themes/material.vim
-"source $HOME/.config/nvim/configs/markdown.vim
+source $HOME/.config/nvim/configs/markdown.vim
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua
