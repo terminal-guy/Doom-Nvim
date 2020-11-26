@@ -1,8 +1,8 @@
 source $HOME/.config/nvim/VIM-PLUG/plugins.vim
 source $HOME/.config/nvim/configs/coc.vim
-source $HOME/.config/nvim/Keys/which-key.vim
+source $HOME/.config/nvim/keys/which-key.vim
 source $HOME/.config/nvim/configs/floaterm.vim
-source $HOME/.config/nvim/Keys/mappings.vim
+source $HOME/.config/nvim/keys/mappings.vim
 source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/general/lightline.vim
 source $HOME/.config/nvim/syntax/python-syntax.vim
