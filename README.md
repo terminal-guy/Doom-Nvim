@@ -22,7 +22,7 @@
 <br>
 
 <details>
-<summary> _Themes_ 🔥🔥🔥 </summary>
+<summary> <i><b>Themes</b></i> 🔥🔥🔥 </summary>
 
 <details>
 <summary> ONE DARK </summary>
