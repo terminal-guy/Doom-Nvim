@@ -30,25 +30,26 @@
 
 <details>
 
-<summary> ✴️ ONE DARK </summary>
+
+ <summary> • ONE DARK </summary>
 
 ![One dark](./.screenshots/colorscripts_awesome_vim.png)
 </details>
 
 <details>
-<summary> ✴️ NORD </summary>
+ <summary> • NORD </summary>
 
 ![Nord](./.screenshots/Nvim_Nord_Setup.png)
 </details>
 
 <details>
-<summary> ✴️ VS CODE DARK+ </summary>
+ <summary> • VS CODE DARK+ </summary>
 
 ![nvcode](./.screenshots/nvcode.png)
 </details>
 
 <details>
-<summary> ✴️ MATERIAL </summary>
+ <summary> • MATERIAL </summary>
 
 
 ![material](./.screenshots/nvim_material.png)
@@ -57,11 +58,3 @@
 </details>
 
 
-
-
-
-#
-#
-#
-* level one
-  + level two tabbed
