@@ -3,7 +3,7 @@
 </div>
 
 ###
-<img height="100px" src=".screenshots/neovim.png" alt="preview" width="300px" style="float: left;"/>
+<img height="100px" src=".screenshots/neovim.png" alt="preview" width="300px" style="float: right;"/>
 
 _**My Configrured of**_ 
 
