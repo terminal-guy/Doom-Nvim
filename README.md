@@ -4,10 +4,10 @@
 
 
 ###
+
 <img src="./.screenshots/neovim-mark-flat.png"
     height=200
     width=200
-     alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 
 <br> </br>
