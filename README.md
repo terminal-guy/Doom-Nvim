@@ -8,5 +8,4 @@
  _**My Configration of**_ 
 
 
-##
 ![xmonad_dracula_edition](.screenshots/My_POST.png)
