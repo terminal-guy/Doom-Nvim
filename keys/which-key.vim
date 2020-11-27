@@ -75,53 +75,6 @@ let g:which_key_map.a = {
       \ }
 
 
-let g:which_key_map['w'] = {
-      \ 'name' : 'windows' ,
-      \ 'w' : ['<C-W>w'     , 'other-window']          ,
-      \ 'd' : ['<C-W>c'     , 'delete-window']         ,
-      \ '-' : ['<C-W>s'     , 'split-window-below']    ,
-      \ '|' : ['<C-W>v'     , 'split-window-right']    ,
-      \ '2' : ['<C-W>v'     , 'layout-double-columns'] ,
-      \ 'h' : ['<C-W>h'     , 'window-left']           ,
-      \ 'j' : ['<C-W>j'     , 'window-below']          ,
-      \ 'l' : ['<C-W>l'     , 'window-right']          ,
-      \ 'k' : ['<C-W>k'     , 'window-up']             ,
-      \ 'H' : ['<C-W>5<'    , 'expand-window-left']    ,
-      \ 'J' : [':resize +5'  , 'expand-window-below']   ,
-      \ 'L' : ['<C-W>5>'    , 'expand-window-right']   ,
-      \ 'K' : [':resize -5'  , 'expand-window-up']      ,
-      \ '=' : ['<C-W>='     , 'balance-window']        ,
-      \ 's' : ['<C-W>s'     , 'split-window-below']    ,
-      \ 'v' : ['<C-W>v'     , 'split-window-below']    ,
-      \ '?' : ['Windows'    , 'fzf-window']            ,
-      \ }
-
-let g:which_key_map['b'] = {
-      \ 'name' : 'mainbuffers' ,
-      \ '>' : [':BufferMoveNext'        , 'move next'],
-      \ '<' : [':BufferMovePrevious'    , 'move prev'],
-      \ '1' : [':BufferGoto 1'          , 'buffer 1'],
-      \ '2' : [':BufferGoto 2'          , 'buffer 2'],
-      \ '3' : [':BufferGoto 3'          , 'buffer 3'],
-      \ '4' : [':BufferGoto 4'          , 'buffer 4'],
-      \ '5' : [':BufferGoto 5'          , 'buffer 5'],
-      \ '6' : [':BufferGoto 6'          , 'buffer 6'],
-      \ '7' : [':BufferGoto 7'          , 'buffer 7'],
-      \ '8' : [':BufferGoto 8'          , 'buffer 8'],
-      \ '9' : [':BufferGoto 9'          , 'buffer 9'],
-      \ '0' : [':BufferGoto 0'          , 'buffer 0'],
-      \ 'b' : [':BufferPick'            , 'pick buffer'],
-      \ 'd' : [':Bdelete'               , 'delete-buffer'],
-      \ 'D' : [':BufferOrderByDirectory', 'order by directory'],
-      \ 'f' : ['bfirst'                 , 'first-buffer'],
-      \ 'l' : ['blast'                  , 'last buffer'],
-      \ 'L' : [':BufferOrderByLanguage' , 'order by language'],
-      \ 'n' : ['bnext'                  , 'next-buffer'],
-      \ 'p' : ['bprevious'              , 'previous-buffer'],
-      \ '?' : ['Buffers'                , 'fzf-buffer'],
-      \ }
-
-
 let g:which_key_map.S = {
       \ 'name' : 'Session' ,
       \ 'c' : [':SClose'          , 'Close Session']  ,
@@ -134,39 +87,11 @@ let g:which_key_map.S = {
 let g:which_key_map.q = {
       \ 'name' : 'Session Commands' ,
       \ 'q' : [':q'          , 'quit']  ,
-      \ 'w' : [':wq'           , 'Save and Quit']     ,
-      \ 's' : [':w'        , 'Save']     ,
+      \ 'w' : [':w'           , 'Save']     ,
+      \ 'wq' : [':wq'        , 'Save and Quit']     ,
       \ 'i' : [':q!'        , 'NO Save Changes']     ,
       \ }
 
-let g:which_key_map.g = {
-      \ 'name' : 'git' ,
-      \ 'a' : [':Git add .'                        , 'add all'],
-      \ 'A' : [':CocCommand fzf-preview.GitStatus' , 'actions'],
-      \ 'b' : [':Git blame'                        , 'blame'],
-      \ 'B' : [':GBrowse'                          , 'browse'],
-      \ 'c' : [':Git commit'                       , 'commit'],
-      \ 'd' : [':Git diff'                         , 'diff'],
-      \ 'D' : [':Gdiffsplit'                       , 'diff split'],
-      \ 'g' : [':GGrep'                            , 'git grep'],
-      \ 'G' : [':Gstatus'                          , 'status'],
-      \ 'h' : [':GitGutterLineHighlightsToggle'    , 'highlight hunks'],
-      \ 'H' : ['<Plug>(GitGutterPreviewHunk)'      , 'preview hunk'],
-      \ 'i' : [':Gist -b'                          , 'post gist'],
-      \ 'j' : ['<Plug>(GitGutterNextHunk)'         , 'next hunk'],
-      \ 'k' : ['<Plug>(GitGutterPrevHunk)'         , 'prev hunk'],
-      \ 'l' : [':Git log'                          , 'log'],
-      \ 'm' : ['<Plug>(git-messenger)'             , 'message'],
-      \ 'p' : [':Git push'                         , 'push'],
-      \ 'P' : [':Git pull'                         , 'pull'],
-      \ 'r' : [':GRemove'                          , 'remove'],
-      \ 's' : ['<Plug>(GitGutterStageHunk)'        , 'stage hunk'],
-      \ 'S' : [':CocCommand fzf-preview.GitStatus' , 'status'],
-      \ 't' : [':GitGutterSignsToggle'             , 'toggle signs'],
-      \ 'u' : ['<Plug>(GitGutterUndoHunk)'         , 'undo hunk'],
-      \ 'v' : [':GV'                               , 'view commits'],
-      \ 'V' : [':GV!'                              , 'view buffer commits'],
-      \ }
 
 
 " l is for language server protocol
@@ -211,16 +136,21 @@ let g:which_key_map.l = {
 " flutter which Keys
 
 
+"let g:which_key_map.f = {
+"      \ 'name' : 'Flutter' ,
+"      \ 'a' : [':CocCommand flutter.run'          , 'run']  ,
+"      \ 'e' : [':CocCommand flutter.emulators'         , 'emulator'] ,
+"      \ 'r' : [':CocCommand flutter.dev.hotReload'           , 'Hot Reload']     ,
+"      \ 'R' : [':CocCommand flutter.dev.hotRestart'        , 'Hot Restart']     ,
+"      \ 'dt' : [':CocCommand flutter.dev.openDevToolsProfiler'           , 'g']   ,
+"      \ }
+
+" f is for find and replace
 let g:which_key_map.f = {
-      \ 'name' : 'Flutter' ,
-      \ 'a' : [':CocCommand flutter.run'          , 'run']  ,
-      \ 'e' : [':CocCommand flutter.emulators'         , 'emulator'] ,
-      \ 'r' : [':CocCommand flutter.dev.hotReload'           , 'Hot Reload']     ,
-      \ 'R' : [':CocCommand flutter.dev.hotRestart'        , 'Hot Restart']     ,
-      \ 'dt' : [':CocCommand flutter.dev.openDevToolsProfiler'           , 'g']   ,
+      \ 'name' : '+find & replace' ,
+      \ 'f' : [':Farr --source=vimgrep'    , 'file'],
+      \ 'p' : [':Farr --source=rgnvim'     , 'project'],
       \ }
-
-
 
 
 " Register which key map

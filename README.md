@@ -1,5 +1,5 @@
 <div align="center">
-  <h1><i><b>NeoVim</b></i></h1>
+  <h1><i><b>Doom NVim</b></i></h1>
 </div>
 
 
@@ -15,7 +15,7 @@
 
 <br> </br>
 
-## _**My Configrured**_ NeoVim like VsCode <img height=30  src="./.screenshots/vscode.jpg"/> 
+## Doom NVim like VsCode <img height=30  src="./.screenshots/vscode.jpg"/> 
 
 ![vim_pics](.screenshots/My_POST.png)
 
