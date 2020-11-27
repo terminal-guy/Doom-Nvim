@@ -67,6 +67,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     Plug 'ChristianChiarulli/far.vim'
    
+    Plug 'terminal-guy/doomNvim-colorschemes'
 
 
 call plug#end()
