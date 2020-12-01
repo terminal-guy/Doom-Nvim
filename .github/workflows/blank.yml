@@ -34,5 +34,3 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-      - name: source.vim
-        run: echo "TODO: soruce test/source.vim in vim by cli"
