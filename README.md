@@ -15,6 +15,13 @@
 
 <br> </br>
 
+<center>
+
+[![GPLv3 License](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
+
+</center>
+
+
 ## Doom NVim like VsCode <img height=30  src="./.screenshots/vscode.jpg"/> 
 
 ![vim_pics](.screenshots/My_POST.png)
