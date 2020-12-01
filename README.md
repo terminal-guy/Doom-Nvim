@@ -6,7 +6,7 @@
 ###
 
 <div align="center">
-<img src="./.screenshots/neovim-mark-flat.png"
+<img src="./.screenshots/neovim-logo-doom-exe.png"
      height=250
      width=200
      alt="NeoVim icon"
