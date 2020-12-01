@@ -18,7 +18,6 @@
 <center>
 
 [![GPLv3 License](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
-
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/terminal-guy/Doom-Nvim/CI)
 </center>
 
