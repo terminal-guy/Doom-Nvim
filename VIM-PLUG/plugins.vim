@@ -50,14 +50,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 "{{  snippets              }}
     Plug 'honza/vim-snippets'
     " Better Syntax Support
-    Plug 'sheerun/vim-polyglot'
+   " Plug 'sheerun/vim-polyglot'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     "{colorizer of them}"
     Plug 'norcalli/nvim-colorizer.lua'
 "{{nvim treesitter and color scheme}}
     Plug 'nvim-treesitter/nvim-treesitter'
-    Plug 'christianchiarulli/nvcode-color-schemes.vim'
 
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
 
