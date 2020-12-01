@@ -1,5 +1,5 @@
 <div align="center">
-  <h1><i><b>Doom NVim</b></i></h1>
+  <h1><i><b>Doom Nvim</b></i></h1>
 </div>
 
 
