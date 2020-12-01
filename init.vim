@@ -21,4 +21,3 @@ source $HOME/.config/nvim/themes/doom-one.vim
 "source $HOME/.config/nvim/themes/material.vim
 "source $HOME/.config/nvim/configs/markdown.vim
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua
-ojjaoijapoifj
