@@ -6,7 +6,7 @@
 ###
 
 <div align="center">
-<img src="./.screenshots/neovim-logo-doom-exe.png"
+<img src="./.screenshots/Doom-color-schemes.png"
      height=250
      width=200
      alt="NeoVim icon">
