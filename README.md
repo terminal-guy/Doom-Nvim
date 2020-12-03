@@ -14,13 +14,11 @@
 
 <br> </br>
 
-<center>
-<p float="middle">
+<p align="middle">
 <img alt="GitHub" src="https://img.shields.io/github/license/terminal-guy/Doom-Nvim?color=%23B4BC&style=for-the-badge" >
 <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/terminal-guy/Doom-Nvim/CI?color=%232f343f&label=BUILD&logo=Github&style=for-the-badge" >
-</center>
+</p>
 
-</div>
 
 ## Doom Nvim is like VsCode <img height=30  src="./.screenshots/vscode.jpg"/> 
 
