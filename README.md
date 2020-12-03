@@ -12,6 +12,7 @@
      alt="NeoVim icon"
 />
 </div>
+</p>
 
 <br> </br>
 
@@ -69,7 +70,7 @@
 
 ## _Install Neovim Nightly_
 
-- **Mac** <center><img src="https://img.shields.io/badge/Apple-Mac-999999?style=for-the-badge&logo=apple&logoColor=white"></center>
+- **Mac** <p align="center"><img src="https://img.shields.io/badge/Apple-Mac-999999?style=for-the-badge&logo=apple&logoColor=white"> </p>
 
   ```
   brew install --HEAD neovim # Nightly version
@@ -77,7 +78,7 @@
   brew upgrade neovim --fetch-HEAD # update to not to get 🚨 :) 
   ```
 
-- **Ubuntu And Debain Based Distros** <center> <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"> <center>
+- **Ubuntu And Debain Based Distros** <p align="center"><img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"> </p>
 
   ```
   curl -l https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage > /tmp/nvim.appimage
@@ -87,7 +88,7 @@
   chmod +x /usr/local/bin/nvim
   ```
 
-- **Arch** <center> <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white"> </center>
+- **Arch** <p align="center"> <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white"> </p>
 
   ```
   yay -S neovim-nightly-git # Git Version to be on 🩸 Edge
