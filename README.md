@@ -11,7 +11,6 @@
      width=200
      alt="NeoVim icon">
 </div>
-</p>
 
 <br> </br>
 
