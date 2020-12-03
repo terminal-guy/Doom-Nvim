@@ -6,7 +6,7 @@
 ###
 
 <div align="center">
-<img src="./.screenshots/Doom-color-schemes.png"
+<img src="./.screenshots/neovim-logo-doom-exe.png"
      height=250
      width=200
      alt="NeoVim icon">
@@ -22,7 +22,7 @@
 
 ## Doom Nvim is like VsCode <img height=30  src="./.screenshots/vscode.jpg"/> 
 
-![vim_pics](.screenshots/My_POST.png)
+![vim_pics](.screenshots/Doom-color-schemes.png)
 
 
 <br> </br>
