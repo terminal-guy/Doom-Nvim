@@ -12,7 +12,6 @@
      alt="NeoVim icon"
 />
 </div>
-</p>
 
 <br> </br>
 
@@ -29,10 +28,36 @@
 ![vim_pics](.screenshots/My_POST.png)
 
 
---- 
+<br> </br>
 
 
-<br>
+## _Install Neovim Nightly_
+
+- **Mac** <p align="center"><img src="https://img.shields.io/badge/Apple-Mac-999999?style=for-the-badge&logo=apple&logoColor=white"> </p>
+
+  ```
+  brew install --HEAD neovim # Nightly version
+
+  brew upgrade neovim --fetch-HEAD # update to not to get 🚨 :) 
+  ```
+
+- **Ubuntu And Debain Based Distros** <p align="center"><img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"> </p>
+
+  ```
+  curl -l https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage > /tmp/nvim.appimage
+
+  sudo mv /tmp/nvim.appimage /usr/local/bin/nvim
+
+  chmod +x /usr/local/bin/nvim
+  ```
+
+- **Arch** <p align="center"> <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white"> </p>
+
+  ```
+  yay -S neovim-nightly-git # Git Version to be on 🩸 Edge
+  ```
+
+---
 
 <details>
 <summary> <font size="5"><i><b>Themes</b></i> </font>🔥🔥🔥 </summary>
@@ -66,30 +91,4 @@
 </details>
 </details>
 
----
 
-## _Install Neovim Nightly_
-
-- **Mac** <p align="center"><img src="https://img.shields.io/badge/Apple-Mac-999999?style=for-the-badge&logo=apple&logoColor=white"> </p>
-
-  ```
-  brew install --HEAD neovim # Nightly version
-
-  brew upgrade neovim --fetch-HEAD # update to not to get 🚨 :) 
-  ```
-
-- **Ubuntu And Debain Based Distros** <p align="center"><img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"> </p>
-
-  ```
-  curl -l https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage > /tmp/nvim.appimage
-
-  sudo mv /tmp/nvim.appimage /usr/local/bin/nvim
-
-  chmod +x /usr/local/bin/nvim
-  ```
-
-- **Arch** <p align="center"> <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white"> </p>
-
-  ```
-  yay -S neovim-nightly-git # Git Version to be on 🩸 Edge
-  ```
