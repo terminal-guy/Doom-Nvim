@@ -23,7 +23,7 @@
 
 </div>
 
-## Doom NVim like VsCode <img height=30  src="./.screenshots/vscode.jpg"/> 
+## Doom Nvim is like VsCode <img height=30  src="./.screenshots/vscode.jpg"/> 
 
 ![vim_pics](.screenshots/My_POST.png)
 
@@ -69,7 +69,7 @@
 
 ## _Install Neovim Nightly_
 
-- **Mac**
+- **Mac** <center><img src="https://img.shields.io/badge/Apple-Mac-999999?style=for-the-badge&logo=apple&logoColor=white"></center>
 
   ```
   brew install --HEAD neovim # Nightly version
@@ -77,7 +77,7 @@
   brew upgrade neovim --fetch-HEAD # update to not to get 🚨 :) 
   ```
 
-- **Ubuntu And Debain Based Distros**
+- **Ubuntu And Debain Based Distros** <center> <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"> <center>
 
   ```
   curl -l https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage > /tmp/nvim.appimage
@@ -87,7 +87,7 @@
   chmod +x /usr/local/bin/nvim
   ```
 
-- **Arch**
+- **Arch** <center> <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white"> </center>
 
   ```
   yay -S neovim-nightly-git # Git Version to be on 🩸 Edge
