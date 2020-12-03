@@ -22,7 +22,7 @@
 
 ## Doom Nvim is like VsCode <img height=30  src="./.screenshots/vscode.jpg"/> 
 
-![vim_pics](.screenshots/Doom-color-schemes.png)
+![vim_pics](.screenshots/Posting_runixporn.png)
 
 
 <br> </br>
