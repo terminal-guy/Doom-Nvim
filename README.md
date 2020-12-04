@@ -19,13 +19,13 @@
 <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/terminal-guy/Doom-Nvim/CI?color=%232f343f&label=BUILD&logo=Github&style=for-the-badge" >
 </p>
 
+--- 
 
-## Doom Nvim is like VsCode <img height=30  src="./.screenshots/vscode.jpg"/> 
 
 ![vim_pics](.screenshots/Posting_runxiporn.png)
 
+---
 
-<br> </br>
 
 
 ## _Install Neovim Nightly_
@@ -87,5 +87,6 @@
 
 </details>
 </details>
+
 
 
