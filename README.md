@@ -27,65 +27,25 @@
 
 
 
-## _Install Neovim Nightly_
-
-- **Mac** <p align="center"><img src="https://img.shields.io/badge/Apple-Mac-999999?style=for-the-badge&logo=apple&logoColor=white"> </p>
-
-  ```
-  brew install --HEAD neovim # Nightly version
-
-  brew upgrade neovim --fetch-HEAD # update to not to get 🚨 :) 
-  ```
-
-- **Ubuntu And Debain Based Distros** <p align="center"><img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"> </p>
-
-  ```
-  curl -l https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage > /tmp/nvim.appimage
-
-  sudo mv /tmp/nvim.appimage /usr/local/bin/nvim
-
-  chmod +x /usr/local/bin/nvim
-  ```
-
-- **Arch** <p align="center"> <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white"> </p>
-
-  ```
-  yay -S neovim-nightly-git # Git Version to be on 🩸 Edge
-  ```
-
----
-
-<details>
-<summary> <font size="5"><i><b>Themes</b></i> </font>🔥🔥🔥 </summary>
-
-<details>
+### Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Install](#install)
+- [Roadmap](#roadmap)
+- [Getting help](#getting-help)
+- [Contribute](#contribute)
 
 
- <summary> • ONE DARK </summary>
+# Introduction
+<a href="http://ultravioletbat.deviantart.com/art/Yay-Evil-111710573">
+  <img src="./.screenshots/neovim-logo-doom-exe.png" align="right" width=160 height=200 />
+</a>
 
-![One dark](./.screenshots/colorscripts_awesome_vim.png)
-</details>
+> People Who Are Afraid or Don't Know How to to Configure Vim and get it working without any Hassle. Doom Nvim Gives you Performance and Experience out of the BOX.
 
-<details>
- <summary> • NORD </summary>
-
-![Nord](./.screenshots/Nvim_Nord_Setup.png)
-</details>
-
-<details>
- <summary> • VS CODE DARK+ </summary>
-
-![nvcode](./.screenshots/nvcode.png)
-</details>
-
-<details>
- <summary> • MATERIAL </summary>
+Doom Nvim is A Highly Configured Distribution of Neovim. That Delievers the experience and Performance Like a Highly Configured Editor Like VS Code We have A great packing system. It has the Syntax Highlighting and Compiler Prebuilt in for Every Programming Language. Doom Nvim is like A full Fleged IDE (Integrated Development Enviroment) 
 
 
-![material](./.screenshots/nvim_material.png)
-
-</details>
-</details>
-
-
+**_Doom Nvim is Design in this Criteria:_**
 
