@@ -19,7 +19,6 @@
 <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/terminal-guy/Doom-Nvim/CI?color=%232f343f&label=BUILD&logo=Github&style=for-the-badge" >
 </p>
 
---- 
 
 
 ![vim_pics](.screenshots/Posting_runxiporn.png)
