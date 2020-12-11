@@ -102,7 +102,10 @@ installplugins() { \
   mv $HOME/.config/nvim/init.vim $HOME/.config/nvim/.service/init.vim
   mv $HOME/.config/nvim/init.vim.tmp $HOME/.config/nvim/init.vim
 }
-
+checkpluginsareinstalled() {\
+  nvim --headless +PlugInstall +qall > /dev/null 2>&1
+  echo "checking Plugins are installed"
+}
 asktoinstallnode() { \
   echo "node not found"
   echo -n "Would you like to install node now (RECOMMENED) (y/n)? "
@@ -185,3 +188,6 @@ echo "I recommend you also install and activate a font from here: https://github
 
 echo "I also recommend you add 'set preview_images_method ueberzug' to ~/.config/ranger/rc.conf"
 
+checkpluginsareinstalled
+
+echo "DONE Instaling Doom-Nvim"
