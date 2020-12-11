@@ -34,7 +34,7 @@ installnode() { \
 
 # cloning Domm Nvim
 cloneconfig() { \
-  echo "Cloning Doom-Nvim"
+  echo "Installing Doom-Nvim"
   git clone https://github.com/terminal-guy/Doom-Nvim.git ~/.config/nvim
 }
 
@@ -188,3 +188,7 @@ installcocextensions
 checkpluginsareinstalled
 
 echo "DONE Instaling Doom-Nvim"
+
+echo ""
+echo ""
+
