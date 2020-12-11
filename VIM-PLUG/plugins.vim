@@ -66,7 +66,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "{colorizer of them}"
     Plug 'norcalli/nvim-colorizer.lua'
 "{{nvim treesitter and color scheme}}
-    Plug 'nvim-treesitter/nvim-treesitter'
+"    Plug 'nvim-treesitter/nvim-treesitter'
 
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
 
