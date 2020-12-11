@@ -152,7 +152,7 @@ installextrapackages() { \
 }
 
 # Welcome
-echo 'Installing Nvim Mach 2'
+echo 'Installing Doom Nvim'
 
 # install pip
 which pip3 > /dev/null && echo "pip installed, moving on..." || asktoinstallpip
@@ -184,9 +184,6 @@ which nvim > /dev/null && installplugins
 
 installcocextensions
 
-echo "I recommend you also install and activate a font from here: https://github.com/ryanoasis/nerd-fonts"
-
-echo "I also recommend you add 'set preview_images_method ueberzug' to ~/.config/ranger/rc.conf"
 
 checkpluginsareinstalled
 
