@@ -38,6 +38,15 @@ cloneconfig() { \
   git clone https://github.com/terminal-guy/Doom-Nvim.git ~/.config/nvim
 }
 
+installcocextensions() { \
+  # Install extensions
+  mkdir -p ~/.config/coc/extensions
+  cd ~/.config/coc/extensions
+  [ ! -f package.json ] && echo '{"dependencies":{}}'> package.json
+  # Change extension names to the extensions you need
+  # sudo npm install coc-explorer coc-snippets coc-json coc-actions --global-style --ignore-scripts --no-bin-links --no-package-lock --only=prod
+  sudo npm install coc-explorer coc-snippets coc-json coc-actions --global-style --ignore-scripts --no-bin-links --no-package-lock --only=prod
+}
 
 # pip 
 
