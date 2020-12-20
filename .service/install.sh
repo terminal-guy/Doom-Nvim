@@ -185,7 +185,7 @@ which nvim > /dev/null && installplugins
 installcocextensions
 
 
-checkpluginsareinstalled
+#checkpluginsareinstalled
 
 echo "DONE Instaling Doom-Nvim"
 
