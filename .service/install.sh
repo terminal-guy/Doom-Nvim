@@ -103,8 +103,10 @@ installplugins() { \
   mv $HOME/.config/nvim/init.vim.tmp $HOME/.config/nvim/init.vim
 }
 checkpluginsareinstalled() {\
-  nvim --headless +PlugInstall +qall > /dev/null 2>&1
   echo "checking Plugins are installed"
+  nvim --headless +PlugInstall +qall > /dev/null 2>&1
+
+
 }
 asktoinstallnode() { \
   echo "node not found"
@@ -183,9 +185,12 @@ cloneconfig
 which nvim > /dev/null && installplugins
 
 installcocextensions
+echo ""
+echo ""
 
 
-#checkpluginsareinstalled
+
+checkpluginsareinstalled
 
 echo "DONE Instaling Doom-Nvim"
 
