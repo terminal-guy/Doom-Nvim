@@ -126,7 +126,6 @@ asktoinstallpip() { \
 
 installonmac() { \
   brew install ripgrep fzf ranger the_silver_searcher fd
-  brew install --HEAD universal-ctags/universal-ctags/universal-ctags
 }
 
 pipinstallueberzug() { \
@@ -134,7 +133,7 @@ pipinstallueberzug() { \
 }
 
 installonubuntu() { \
-  sudo apt install ripgrep fzf ranger universal-ctags silversearcher-ag fd-find
+  sudo apt install ripgrep fzf ranger silversearcher-ag fd-find
   sudo apt install libjpeg8-dev zlib1g-dev python-dev python3-dev libxtst-dev
   pip3 install ueberzug
   pip3 install neovim-remote
@@ -143,7 +142,7 @@ installonubuntu() { \
 
 installonarch() { \
   sudo pacman -S ripgrep fzf ranger the_silver_searcher fd
-  which yay > /dev/null && yay -S python-ueberzug-git universal-ctags-git || pipinstallueberzug
+  which yay > /dev/null && yay -S python-ueberzug-git || pipinstallueberzug
   pip3 install neovim-remote
 }
 
