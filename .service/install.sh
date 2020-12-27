@@ -174,7 +174,7 @@ pip3 list | grep pynvim > /dev/null && echo "pynvim installed, moving on..." || 
 
 # clone config down
 cloneconfig
-
+[ "$answer" != "${answer#[Yy]}" ] && installextrapackages || echo "not installing extra packages"
 
 # echo "Nvim Mach 2 is better with at least ripgrep, ueberzug and ranger"
 # echo -n "Would you like to install these now?  (y/n)? "
