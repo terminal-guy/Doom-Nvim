@@ -149,8 +149,8 @@ installonarch() { \
 installextrapackages() { \
   [ "$(uname)" == "Darwin" ] && installonmac
   [  -n "$(uname -a | grep Ubuntu)" ] && installonubuntu
-  [ -f "/etc/arch-release" ] && installonarch
-  [ "$(expr substr $(uname -s) 1 10)" == "MINGW64_NT" ] && echo "Windows not currently supported"
+  [ -n "$(uname -a | grep arch)" ] && installonarch
+#u  [ "$(expr substr $(uname -s) 1 10)" == "MINGW64_NT" ] && echo "Windows not currently supported"
 }
 
 # Welcome
