@@ -136,21 +136,21 @@ let g:which_key_map.l = {
 " flutter which Keys
 
 
-"let g:which_key_map.f = {
-"      \ 'name' : 'Flutter' ,
-"      \ 'a' : [':CocCommand flutter.run'          , 'run']  ,
-"      \ 'e' : [':CocCommand flutter.emulators'         , 'emulator'] ,
-"      \ 'r' : [':CocCommand flutter.dev.hotReload'           , 'Hot Reload']     ,
-"      \ 'R' : [':CocCommand flutter.dev.hotRestart'        , 'Hot Restart']     ,
-"      \ 'dt' : [':CocCommand flutter.dev.openDevToolsProfiler'           , 'g']   ,
-"      \ }
+let g:which_key_map.f = {
+      \ 'name' : 'Flutter' ,
+      \ 'a' : [':CocCommand flutter.run'          , 'run']  ,
+      \ 'e' : [':CocCommand flutter.emulators'         , 'emulator'] ,
+      \ 'r' : [':CocCommand flutter.dev.hotReload'           , 'Hot Reload']     ,
+      \ 'R' : [':CocCommand flutter.dev.hotRestart'        , 'Hot Restart']     ,
+      \ 'dt' : [':CocCommand flutter.dev.openDevToolsProfiler'           , 'g']   ,
+      \ }
 
 " f is for find and replace
-let g:which_key_map.f = {
-      \ 'name' : '+find & replace' ,
-      \ 'f' : [':Farr --source=vimgrep'    , 'file'],
-      \ 'p' : [':Farr --source=rgnvim'     , 'project'],
-      \ }
+"let g:which_key_map.f = {
+"      \ 'name' : '+find & replace' ,
+"      \ 'f' : [':Farr --source=vimgrep'    , 'file'],
+"      \ 'p' : [':Farr --source=rgnvim'     , 'project'],
+"      \ }
 
 
 " Register which key map
