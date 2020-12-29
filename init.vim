@@ -1,3 +1,7 @@
+
+
+"gf to go the file and Ctrl + o to comeback to the this page 
+
 source $HOME/.config/nvim/VIM-PLUG/plugins.vim
 source $HOME/.config/nvim/configs/coc.vim
 source $HOME/.config/nvim/keys/which-key.vim
