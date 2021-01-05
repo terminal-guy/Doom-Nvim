@@ -127,21 +127,21 @@ installonmac() { \
 }
 
 pipinstallueberzug() { \
-  which pip3 > /dev/null && pip3 install ueberzug || echo "Not installing ueberzug pip not found"
+  which pip3 > /dev/null && pip3 install ueberzug &> /dev/null || echo "Not installing ueberzug pip not found"
 }
 
 installonubuntu() { \
   sudo apt install ripgrep fzf ranger silversearcher-ag fd-find &> /dev/null
   sudo apt install libjpeg8-dev zlib1g-dev python-dev python3-dev libxtst-dev &> /dev/null
-  pip3 install ueberzug
-  pip3 install neovim-remote
+  pip3 install ueberzug  &> /dev/null
+  pip3 install neovim-remote  &> /dev/null
 }
 
 
 installonarch() { \
   sudo pacman -S ripgrep fzf ranger the_silver_searcher fd &> /dev/null
   which yay > /dev/null && yay -S python-ueberzug-git --noconfirm || pipinstallueberzug | &> /dev/null
-  pip3 install neovim-remote
+  pip3 install neovim-remote &> /dev/null
 }
 
 installextrapackages() { \
