@@ -13,13 +13,11 @@ installnodemac() { \
 }
 
 installnodeubuntu() { \
-  sudo apt install nodejs
-  sudo apt install npm
+  sudo apt install nodejs npm &> /dev/null
 }
 
 installnodearch() { \
-  sudo pacman -S nodejs
-  sudo pacman -S npm
+  sudo pacman -S nodejs npm &> /dev/null
 }
 
 installnode() { \
@@ -45,7 +43,7 @@ installcocextensions() { \
   [ ! -f package.json ] && echo '{"dependencies":{}}'> package.json
   # Change extension names to the extensions you need
   # sudo npm install coc-explorer coc-snippets coc-json coc-actions --global-style --ignore-scripts --no-bin-links --no-package-lock --only=prod
-  sudo npm install coc-explorer coc-snippets coc-flutter coc-json coc-actions --global-style --ignore-scripts --no-bin-links --no-package-lock --only=prod
+  sudo npm install coc-explorer coc-snippets coc-yank coc-flutter coc-json coc-actions --global-style --ignore-scripts --no-bin-links --no-package-lock --only=prod
 }
 
 # pip 
@@ -57,11 +55,11 @@ installpiponmac() { \
 }
 
 installpiponubuntu() { \
-  sudo apt install python3-pip > /dev/null
+  sudo apt install python3-pip &> /dev/null
 }
 
 installpiponarch() { \
-  pacman -S python-pip
+  sudo pacman -S python-pip &> /dev/null
 }
 
 installpip() { \
@@ -133,16 +131,16 @@ pipinstallueberzug() { \
 }
 
 installonubuntu() { \
-  sudo apt install ripgrep fzf ranger silversearcher-ag fd-find
-  sudo apt install libjpeg8-dev zlib1g-dev python-dev python3-dev libxtst-dev
+  sudo apt install ripgrep fzf ranger silversearcher-ag fd-find &> /dev/null
+  sudo apt install libjpeg8-dev zlib1g-dev python-dev python3-dev libxtst-dev &> /dev/null
   pip3 install ueberzug
   pip3 install neovim-remote
 }
 
 
 installonarch() { \
-  sudo pacman -S ripgrep fzf ranger the_silver_searcher fd
-  which yay > /dev/null && yay -S python-ueberzug-git || pipinstallueberzug
+  sudo pacman -S ripgrep fzf ranger the_silver_searcher fd &> /dev/null
+  which yay > /dev/null && yay -S python-ueberzug-git || pipinstallueberzug | &> /dev/null
   pip3 install neovim-remote
 }
 
