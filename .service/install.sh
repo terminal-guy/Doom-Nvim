@@ -139,7 +139,7 @@ installonubuntu() { \
 
 
 installonarch() { \
-  sudo pacman -S install ripgrep fzf ranger &> /dev/null
+  sudo pacman -S install ripgrep fzf ranger 
   which yay > /dev/null && yay -S python-ueberzug-git || pipinstallueberzug
   pip3 install neovim-remote
 }
