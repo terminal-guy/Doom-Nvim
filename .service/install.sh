@@ -23,7 +23,7 @@ installnodearch() { \
 }
 
 installnode() { \
-  echo "Installing node..."
+  echo "➜ Installing node..."
   [ "$(uname)" == "Darwin" ] && installnodemac
   [  -n "$(uname -a | grep Ubuntu)" ] && installnodeubuntu
   [ -f "/etc/arch-release" ] && installnodearch
@@ -34,7 +34,7 @@ installnode() { \
 
 # cloning Domm Nvim
 cloneconfig() { \
-  echo "Installing Doom-Nvim"
+  echo "➜ Installing Doom-Nvim"
   git clone https://github.com/terminal-guy/Doom-Nvim.git ~/.config/nvim
 }
 
@@ -65,7 +65,7 @@ installpiponarch() { \
 }
 
 installpip() { \
-  echo "Installing pip..."
+  echo "➜ Installing pip..."
   [ "$(uname)" == "Darwin" ] && installpiponmac
   [  -n "$(uname -a | grep Ubuntu)" ] && installpiponubuntu
   [ -f "/etc/arch-release" ] && installpiponarch
@@ -73,7 +73,7 @@ installpip() { \
 }
 
 installpynvim() { \
-  echo "Installing pynvim..."
+  echo "➜ Installing pynvim..."
   pip3 install pynvim --user
 }
 
@@ -82,13 +82,13 @@ installpynvim() { \
 #backup old config
 
 moveoldnvim() { \
-  echo "Backing up your nvim config to nvim.old"
+  echo "⟹ Backing up your nvim config to nvim.old"
   mv $HOME/.config/nvim $HOME/.config/nvim.old
 }
 
 
 moveoldcoc() { \
-  echo "Moving your coc to coc.old"
+  echo "⟹ Moving your coc to coc.old"
   mv $HOME/.config/coc $HOME/.config/coc.old
 }
 
@@ -97,13 +97,13 @@ moveoldcoc() { \
 installplugins() { \
   mv $HOME/.config/nvim/init.vim $HOME/.config/nvim/init.vim.tmp
   mv $HOME/.config/nvim/.service/init.vim $HOME/.config/nvim/init.vim
-  echo "Installing  plugins..."
+  echo "➜ Installing  plugins..."
   nvim --headless +PlugInstall +qall > /dev/null 2>&1
   mv $HOME/.config/nvim/init.vim $HOME/.config/nvim/.service/init.vim
   mv $HOME/.config/nvim/init.vim.tmp $HOME/.config/nvim/init.vim
 }
 checkpluginsareinstalled() {\
-  echo "checking Plugins are installed"
+  echo "➤ checking and Sourcing Plugins"
   nvim --headless +PlugInstall +qall > /dev/null 2>&1
 
 
@@ -147,7 +147,7 @@ installonarch() { \
 }
 
 installextrapackages() { \
- echo "Installing Extra Plugins....."
+ echo "➜ Installing Extra Plugins....."
 
   [ "$(uname)" == "Darwin" ] && installonmac
   [  -n "$(uname -a | grep Ubuntu)" ] && installonubuntu
@@ -156,13 +156,13 @@ installextrapackages() { \
 }
 
 # Welcome
-echo 'Installing Doom Nvim'
+echo '➜ Installing Doom Nvim'
 
 # install pip
-which pip3 > /dev/null && echo "pip installed, moving on..." || asktoinstallpip
+which pip3 > /dev/null && echo "➜ pip installed, moving on..." || asktoinstallpip
 
 # install node and neovim support
-which node > /dev/null && echo "node installed, moving on..." || asktoinstallnode
+which node > /dev/null && echo "➜ node installed, moving on..." || asktoinstallnode
 
 
 # install pynvim
@@ -195,7 +195,7 @@ echo ""
 
 checkpluginsareinstalled
 
-echo "DONE Instaling Doom-Nvim"
+echo "➣ DONE Instaling Doom-Nvim"
 
 echo ""
 echo ""
