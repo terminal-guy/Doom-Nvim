@@ -139,7 +139,7 @@ installonubuntu() { \
 
 
 installonarch() { \
-  sudo pacman -S install ripgrep the_silver_searcher fd fzf ranger 
+  sudo pacman -S ripgrep the_silver_searcher fd fzf ranger 
   which yay > /dev/null && yay -S python-ueberzug-git || pipinstallueberzug
   pip3 install neovim-remote
 }
