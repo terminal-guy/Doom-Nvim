@@ -1,3 +1,6 @@
-#+BEGIN_CENTER
-                               #+TITLE: Doom Nvim
-#+END_CENTER
+#+TITLE: Doom Nvim
+
+* What Are Dotfiles?
+#+CAPTION: Desktop Scrot
+#+ATTR_HTML: :alt Desktop Scrot :title Desktop Scrot :align middle
+[[https://gitlab.com/dwt1/dotfiles/-/raw/master/.screenshots/dotfiles09-thumb.png]]
