@@ -2,5 +2,7 @@
 
 * What Are Dotfiles?
 #+CAPTION: Logo
-#+ATTR_HTML: :alt Desktop Scrot :title Desktop Scrot :align middle :width 200px :height 250px
+#+ATTR_HTML: :alt Desktop Scrot :title Desktop Scrot :align middle
+#+ATTR_HTML: :width 200 :height 250
+
 [[./.screenshots/neovim-logo-doom-exe.png]]
