@@ -1,7 +1,0 @@
-#+BEGIN_EXPORT html
-<div align="center">
-  <h1><i><b>Doom Nvim</b></i></h1>
-</div>
-#+END_EXPORT
-
-<p align="center"><img src="./.screenshots/neovim-logo-doom-exe.png" /></p>
