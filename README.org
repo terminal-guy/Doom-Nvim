@@ -2,5 +2,5 @@
 
 * What Are Dotfiles?
 #+CAPTION: Desktop Scrot
-#+ATTR_HTML: :alt Desktop Scrot :title Desktop Scrot :align middle
-https://github.com/terminal-guy/Doom-Nvim/blob/main/.screenshots/neovim-logo-doom-exe.png?raw=true
+#+ATTR_HTML: :alt Desktop Scrot :title Desktop Scrot :align left
+https://github.com/terminal-guy/Doom-Nvim/blob/main/.screenshots/neovim-logo-doom-exe.png
