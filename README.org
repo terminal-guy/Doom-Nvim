@@ -1,1 +1,3 @@
+#+begin_center
 #+TITLE: Doom Nvim
+#+end_center
