@@ -1,6 +1,6 @@
 #+TITLE: Doom Nvim
 
 * What Are Dotfiles?
-#+CAPTION: Desktop Scrot
-#+ATTR_HTML: :alt Desktop Scrot :title Desktop Scrot :align left
-https://user-images.githubusercontent.com/58595594/103856933-81c28180-50db-11eb-85d0-3d948bb18341.png
+#+CAPTION: Logo
+#+ATTR_HTML: :alt Desktop Scrot :title Desktop Scrot :align middle
+[[./.screenshots/neovim-logo-doom-exe.png]]
