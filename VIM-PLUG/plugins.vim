@@ -59,6 +59,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mhinz/vim-startify'
 "{{  snippets              }}
     Plug 'honza/vim-snippets'
+    Plug 'natebosch/dartlang-snippets'
     " Better Syntax Support
    " Plug 'sheerun/vim-polyglot'
     " Auto pairs for '(' '[' '{'
