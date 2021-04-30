@@ -27,6 +27,7 @@ set ruler              			            " Show the cursor position all the time
 set pumheight=10                        " Makes popup menu smaller
 set cmdheight=2                         " More space for displaying messages
 set cursorline                          " Enable highlighting of the current line
+set encoding=UTF-8
 
 " Always show statusline
 set laststatus=2

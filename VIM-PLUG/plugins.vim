@@ -79,6 +79,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
    
     Plug 'terminal-guy/doomNvim-colorschemes'
 
+    Plug 'wakatime/vim-wakatime'
+
 
 call plug#end()
 
