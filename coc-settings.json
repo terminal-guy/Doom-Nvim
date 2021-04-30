@@ -13,6 +13,8 @@
     "flutter.sdk.dart-command": "",
     "flutter.provider.enableSnippet": true,
     "flutter.lsp.initialization.closingLabels": true,
+    "flutter.runDevToolsAtStartup": true,
+    "flutter.lsp.debug": true,
     "coc.preferences.enableMarkdown": true,
     // python config
     "python.linting.enabled": true,

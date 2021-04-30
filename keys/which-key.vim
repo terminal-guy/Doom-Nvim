@@ -142,7 +142,7 @@ let g:which_key_map.f = {
       \ 'e' : [':CocCommand flutter.emulators'         , 'emulator'] ,
       \ 'r' : [':CocCommand flutter.dev.hotReload'           , 'Hot Reload']     ,
       \ 'R' : [':CocCommand flutter.dev.hotRestart'        , 'Hot Restart']     ,
-      \ 'dt' : [':CocCommand flutter.dev.openDevToolsProfiler'           , 'g']   ,
+      \ 'd' : [':below new output:///flutter-dev'           , 'g']   ,
       \ }
 
 " f is for find and replace
