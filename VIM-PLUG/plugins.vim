@@ -46,6 +46,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 "{{ for floatterm        }}
     Plug 'voldikss/vim-floaterm'
 "{{ themes               }}
+    Plug 'ghifarit53/tokyonight-vim'
     Plug 'joshdick/onedark.vim'
     Plug 'kaicataldo/material.vim', { 'branch': 'main' }
     Plug 'arcticicestudio/nord-vim'
