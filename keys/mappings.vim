@@ -69,8 +69,8 @@ nmap <leader>. <Plug>(coc-codeaction-selected)<CR>
 
 
 " Move to previous/next
-" nnoremap <silent>    <A-,> :BufferPrevious<CR>
-" nnoremap <silent>    <A-.> :BufferNext<CR>
+nnoremap <silent>    <A-,> :BufferPrevious<CR>
+nnoremap <silent>    <A-.> :BufferNext<CR>
 
 
 
