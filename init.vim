@@ -35,9 +35,10 @@ source $HOME/.config/nvim/configs/dart.vim
 source $HOME/.config/nvim/configs/rainbow.vim
 source $HOME/.config/nvim/configs/quickscope.vim
 source $HOME/.config/nvim/configs/sneak.vim
+source $HOME/.config/nvim/configs/barbar.vim
 "source $HOME/.config/nvim/syntax/treesitter.vim
-"source $HOME/.config/nvim/themes/onedark.vim
-source $HOME/.config/nvim/themes/doom-one.vim
+source $HOME/.config/nvim/themes/onedark.vim
+"source $HOME/.config/nvim/themes/doom-one.vim
 "source $HOME/.config/nvim/themes/vscode.vim
 "source $HOME/.config/nvim/themes/nord.vim
 "source $HOME/.config/nvim/themes/material.vim
