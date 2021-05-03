@@ -54,3 +54,9 @@ set fillchars+=vert:\
 " => for WHICH KEYS
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set timeoutlen=500
+
+
+" au BufEnter :BarbarEnable<CR>
+
+
+
