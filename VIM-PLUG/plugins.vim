@@ -86,9 +86,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'romgrk/barbar.nvim'
 
-
-    
     Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+
+    Plug 'tpope/vim-commentary'
 
     call plug#end()
 
