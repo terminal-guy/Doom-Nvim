@@ -28,7 +28,6 @@
 "source $HOME/.config/nvim/configs/markdown.vim
 "source $HOME/.config/nvim/themes/tokyonight.vim
 
-
 source $HOME/.config/nvim/VIM-PLUG/plugins.vim
 source $HOME/.config/nvim/configs/coc.vim
 source $HOME/.config/nvim/keys/which-key.vim
@@ -46,4 +45,5 @@ source $HOME/.config/nvim/configs/quickscope.vim
 source $HOME/.config/nvim/configs/sneak.vim
 source $HOME/.config/nvim/configs/barbar.vim
 source $HOME/.config/nvim/themes/onedark.vim
+
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua

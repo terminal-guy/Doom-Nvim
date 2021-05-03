@@ -69,15 +69,15 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'norcalli/nvim-colorizer.lua'
 "{{nvim treesitter and color scheme}}
 "    Plug 'nvim-treesitter/nvim-treesitter'
-
+   "{Markdown Preview}"
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
-
+   "{Vim Sneak}"
     Plug 'justinmk/vim-sneak'
-    
+       "{Quick Scope}"
     Plug 'unblevable/quick-scope'
-
+" {far neovim}"
     Plug 'ChristianChiarulli/far.vim'
-   
+      "{colorschemes}"
     Plug 'terminal-guy/doomNvim-colorschemes'
 
     Plug 'wakatime/vim-wakatime'
@@ -85,6 +85,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
         " For tabine
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'romgrk/barbar.nvim'
+
+
+    
+    Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
     call plug#end()
 
