@@ -81,8 +81,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     Plug 'wakatime/vim-wakatime'
 
+        " For tabine
+    Plug 'kyazdani42/nvim-web-devicons'
+    Plug 'romgrk/barbar.nvim'
 
-call plug#end()
+    call plug#end()
 
 
 
