@@ -37,6 +37,7 @@ let g:which_key_map['v'] = [ '<C-W>v'                     , 'split right']
 let g:which_key_map['z'] = [ 'Goyo'                       , 'zen' ]
 let g:which_key_map['='] = [ '<C-W>='                     , 'balance windows']
 let g:which_key_map['n'] = [ ':let @/ = ""'                                    , 'no highlight' ]
+let g:which_key_map['b'] = [ 'Buffers'                    , 'Buffers']
 
 " t is for terminal
 let g:which_key_map.t = {
