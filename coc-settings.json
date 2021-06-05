@@ -5,7 +5,6 @@
         "html",
         "yaml",
         "json",
-        "python",
         "dart"
     ],
     "codeLens.enable": true,
