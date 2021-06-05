@@ -32,7 +32,6 @@
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Install](#install)
-- [Roadmap](#roadmap)
 - [Getting help](#getting-help)
 - [Contribute](#contribute)
 
