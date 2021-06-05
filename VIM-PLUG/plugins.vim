@@ -71,8 +71,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 "    Plug 'nvim-treesitter/nvim-treesitter'
    "{Markdown Preview}"
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
-       "{Quick Scope}"
-    Plug 'unblevable/quick-scope'
 " {far neovim}"
     Plug 'ChristianChiarulli/far.vim'
       "{colorschemes}"
